@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Alert-->
+    <dimen name="padding_all_info">15dp</dimen>
+    <dimen name="ic_size_width">200dp</dimen>
+    <dimen name="ic_size_height">250dp</dimen>
+
+    <dimen name="txt_name_size">25sp</dimen>
+
+    <dimen name="l_margin_top">25dp</dimen>
+    <dimen name="l_margin_genre">35dp</dimen>
+    <!--Alert-->
+
+
+    <!--item_recycler-->
+    <dimen name="card_height">400dp</dimen>
+    <dimen name="card_rad">20dp</dimen>
+
+    <dimen name="ic_size_w_item">180dp</dimen>
+    <dimen name="ic_size_h_item">230dp</dimen>
+    <dimen name="margin_txt_name_item">30dp</dimen>
+
+    <dimen name="margin_star_fav">20dp</dimen>
+    <dimen name="size_favorite">40dp</dimen>
+    <!--item_recycler-->
+
+
+    <!--one Text-->
+    <dimen name="txt_click_to_search">30sp</dimen>
+    <!--one Text-->
+
+    <!--Close Button-->
+    <dimen name="margin_close_wV">15dp</dimen>
+    <dimen name="txt_btn_close">23sp</dimen>
+    <!--Close Button-->
+</resources>

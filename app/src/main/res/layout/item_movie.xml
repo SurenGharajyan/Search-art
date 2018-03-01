@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_movie"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_height"
+        app:cardBackgroundColor="#ecf0f1"
+        app:cardCornerRadius="@dimen/card_rad">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_all_info">
+
+            <ImageView
+                android:src="@drawable/ic_star_full"
+                android:id="@+id/movie_img"
+                android:layout_width="@dimen/ic_size_w_item"
+                android:layout_height="@dimen/ic_size_h_item"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right" />
+
+            <LinearLayout
+                android:id="@+id/movie_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/movie_img"
+                android:layout_toStartOf="@+id/movie_img"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/movie_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_txt_name_item"
+                    android:text="Name: "
+                    android:textColor="#000"
+                    android:textSize="@dimen/txt_name_size" />
+
+                <TextView
+                    android:id="@+id/movie_is"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_toRightOf="@id/movie_name"
+                    android:singleLine="true"
+                    android:text="set Movie Name "
+                    android:textSize="@dimen/txt_name_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/year_linear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/movie_linear"
+                android:layout_marginTop="@dimen/l_margin_top"
+                android:layout_toLeftOf="@+id/movie_img"
+                android:layout_toStartOf="@+id/movie_img"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:id="@+id/movie_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Year: "
+                    android:textColor="#000"
+                    android:textSize="@dimen/txt_name_size" />
+
+                <TextView
+                    android:id="@+id/movie_year_is"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_toRightOf="@id/movie_name"
+                    android:singleLine="true"
+                    android:text="set Year of created "
+                    android:textSize="@dimen/txt_name_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/year_linear"
+                android:layout_marginTop="@dimen/l_margin_top"
+                android:layout_toLeftOf="@+id/movie_img"
+                android:layout_toStartOf="@+id/movie_img"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/movie_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This is a: "
+                    android:textColor="#000"
+                    android:textSize="@dimen/txt_name_size" />
+
+                <TextView
+                    android:id="@+id/movie_type_is"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_toRightOf="@id/movie_name"
+                    android:singleLine="true"
+                    android:text="set type "
+                    android:textSize="@dimen/txt_name_size" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_more_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"
+                android:text="More information"
+                android:fontFamily="casual"
+                android:textAllCaps="false"
+                android:textColor="#3498db"
+                android:textSize="@dimen/txt_name_size"
+                android:textStyle="bold|italic" />
+            <ImageView
+
+                android:layout_margin="@dimen/margin_star_fav"
+                android:layout_height="@dimen/size_favorite"
+                android:layout_width="@dimen/size_favorite"
+                android:id="@+id/favorite_star"
+                android:src="@drawable/ic_star_empty"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="starColor">#0011ff</color>
+    <color name="rateColor">#f1c40f</color>
+    <color name="rateDiactive">#00f198</color>
+</resources>
