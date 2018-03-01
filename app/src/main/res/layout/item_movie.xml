@@ -129,13 +129,13 @@
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:background="@android:color/transparent"
+                android:background="@drawable/btn_style"
                 android:text="More information"
                 android:fontFamily="casual"
                 android:textAllCaps="false"
                 android:textColor="#3498db"
                 android:textSize="@dimen/txt_name_size"
-                android:textStyle="bold|italic" />
+                android:textStyle="bold" />
             <ImageView
 
                 android:layout_margin="@dimen/margin_star_fav"
